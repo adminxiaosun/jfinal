@@ -23,10 +23,12 @@ import java.util.Map;
 /**
  * ProxyClass
  */
-public class ProxyClass {
+public class ProxyClass<T> {
 	
 	// 被代理的目标
 	private Class<?> target;
+	private String name;
+	
 	
 	/**
 	 * 以下是代理类信息
